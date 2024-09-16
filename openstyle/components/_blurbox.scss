@@ -1,0 +1,13 @@
+.blur-box {
+    width: 1180px; 
+    height: 728px; 
+    position: absolute;
+    background: rgba(94, 94, 94, 0.178); 
+    backdrop-filter: blur(10px);
+    z-index: 1; 
+    
+    border-radius: 4%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}

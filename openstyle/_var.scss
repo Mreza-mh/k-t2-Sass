@@ -1,0 +1,50 @@
+$primary : #062758 ;
+$secondary : rgba(33, 58, 33, 0.397) ;
+$eroor : #e61628 ;
+$bg-light : #3f093f11;
+$link-color : #9424a3;
+$error: #d32752;
+$info: #f6c41c;
+
+
+
+$colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "error": $error,
+    "info": $info,
+    "blue": #1919e6,
+    "red": #e61919,
+    "yellow": #e6e619,
+    "green": #38BD6C,
+    "orange": #ffa600,
+    "purple": #9900ff,
+    "gray": #808080,
+    "gray-line": #b8b2b2e0,
+    "light-gray": #cfcfcf,
+    "light-gray2": #cfcfcf69,
+    "input": #f2f4fa,
+    "black": black,
+    "white": white,
+    "mobile": #f2f3fcfe,
+    "mobile-keyboard": #ced1d8,
+);
+
+
+$base-p : 0.75rem ; 
+$base-m : 0.75rem ;
+
+$base-boeder : 2px;
+$base-border-radios : 20px ;
+
+$base-box-shadow : 2px 2px 6px rgb(4, 168, 160) ;
+
+$font-family : Arial, sans-serif;
+
+$base-font-size: 1rem ;
+$font-size-sm  : 1rem * 0.75 ;
+$font-size-lg  : 1rem * 1.25 ;
+$font-size-xl  : 1rem * 1.5 ;
+$font-size-2xl : 1rem * 1.75 ;
+$font-size-3xl : 1rem * 2 ;
+$font-size-4xl : 1rem *2.75 ;

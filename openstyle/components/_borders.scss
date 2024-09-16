@@ -1,0 +1,35 @@
+
+.batery-border {
+    border-width: 1.5px 1.5px 1.5px 1.5px; 
+    border-style: solid;
+    border-color: #cfcfcf;
+}
+
+
+.border-input{
+    border-width:  1px 2px 1px 2px;
+    border-style: solid;
+    border-color: #cfcfcf;
+    outline: none;
+    transition: border-color 0.3s, border-width 0.5s;
+    &:hover{
+            border-color: #050e88;
+    }
+    &:focus {
+    border-color: rgb(0, 184, 144);
+    }
+}
+
+.num-input{
+    border-width: 1px ;
+    border-style: solid;
+    border-color: #aea8a8;
+    outline: none;
+    transition: border-color 0.3s, border-width 0.5s;
+    &:hover{
+            border-color: #050e88;
+    }
+    &:focus {
+    border-color: rgb(0, 184, 80);
+    }
+}

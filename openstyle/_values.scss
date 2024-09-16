@@ -1,0 +1,45 @@
+$borderradius-values: 2,3,5,10, 20, 30, 40, 50, 60, 70, 80, 90, 100;
+$position-values: relative , absolute;
+$fontweight-values: 50,100, 200, 300, 400, 500, 600, 700, 800, 900, 1000;
+$display-values: inline-block,inline, block;
+
+@each $val in $borderradius-values {
+    .rad-#{$val} {
+        border-radius: $val+px;
+    }
+}
+
+@each $val in $borderradius-values {
+    .top_rad-#{$val} {
+        border-top-left-radius: $val+px;
+        border-top-right-radius: $val+px;
+    }
+}
+
+@each $val in $borderradius-values {
+    .bottom-rad-#{$val} {
+        border-bottom-left-radius: $val+px;
+        border-bottom-right-radius: $val+px;
+    }
+}
+
+@each $val in $position-values {
+    .#{$val} {
+        position: $val ;
+    }
+}
+@each $val in $fontweight-values {
+    .fontweight-#{$val} {
+        font-weight: $val ;
+    }
+}
+
+@each $val in $display-values {
+    .#{$val} {
+        display: $val;
+    }
+}
+
+
+
+

@@ -1,0 +1,40 @@
+
+.my-auto{
+    margin: auto 0px ;
+}
+
+.w-full{
+    width: 100%;
+}
+
+.object-cover{
+    object-fit: cover;  
+}
+
+.box{
+    box-sizing: border-box;
+}
+
+.line-height-1{
+    line-height: 1;
+}
+
+.line-height-1-1{
+    line-height: 1.1;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.bg-img{
+    background-image: url(../image/desktop-wallpaper-irish-countryside-rural.jpg);
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat;  
+    position: relative;
+}
+    
+.mx-auto{
+    margin: 0 auto;
+}
