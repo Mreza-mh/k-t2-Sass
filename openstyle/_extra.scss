@@ -38,3 +38,14 @@
 .mx-auto{
     margin: 0 auto;
 }
+
+.btn-border{
+    border: solid ;
+}
+.none-border{
+    border: 0px solid;
+}
+
+button:hover {
+    cursor: pointer;
+}

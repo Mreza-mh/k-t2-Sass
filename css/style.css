@@ -8167,6 +8167,18 @@ img {
   margin: 0 auto;
 }
 
+.btn-border {
+  border: solid;
+}
+
+.none-border {
+  border: 0px solid;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
 .batery-border {
   border-width: 1.5px 1.5px 1.5px 1.5px;
   border-style: solid;
