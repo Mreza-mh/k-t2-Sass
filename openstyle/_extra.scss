@@ -41,6 +41,12 @@
 
 .btn-border{
     border: solid ;
+    border: 0;
+}
+
+.img-bg {
+    background-color: transparent;
+    filter: brightness(0.71) invert(1); 
 }
 .none-border{
     border: 0px solid;
@@ -48,4 +54,7 @@
 
 button:hover {
     cursor: pointer;
+}
+.display_none{
+    display: none;
 }
